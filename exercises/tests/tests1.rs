@@ -16,6 +16,6 @@
 mod tests {
     #[test]
     fn you_can_assert() {
-        assert!();
+        assert!(3_i32.pow(2) == 9);
     }
 }
